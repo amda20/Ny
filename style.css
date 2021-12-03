@@ -1,0 +1,105 @@
+/* CSS Document */
+
+body {
+	padding:0; margin:0; background:#fff;}
+	
+p, div, ul, li, img, h1, h2, h3 ,a {
+		padding:0; margin:0;
+		}
+.spacer {
+		clear:both;
+		line-height:1px;
+		font-size:1px;
+}
+form, label, input {
+		padding:0; margin:0;
+		}
+  	ul{list-style:none;}
+/*-----------------------*/
+div#main{width:778px; margin:0 auto 0 auto;}
+div#main img.logo{float:left; margin:44px 0 0 19px;}
+div#main ul.KANSAS{ width:315px; margin:5px 0 0 0; float:right; height:92px;}
+div#main ul.KANSAS li{ float:left; line-height:0 ; font-size:0;}
+div#main ul.topnav{ width:454px; float:left; height:17px; display:block; padding:5px 0 0 9px; font:11px/14px Tahoma, Arial, Helvetica, sans-serif; color:#FFFFFF; background:#697779; margin:9px 0 0 0;}
+div#main ul.topnav li{ float:left;}
+div#main ul.topnav li a{ margin:0 10px 0 10px; text-decoration:none; color:#FFFFFF; background:inherit;}
+div#main ul.topnav li a:hover{ text-decoration:underline;}
+div#main h2.gallary{ background:#000; width:299px; height:17px; padding:5px 0 0 16px; float:right; font:bold 11px/14px Verdana, Arial, Helvetica, sans-serif; color:#CCCCCC;}
+div#main div#header{background:url(images/KB.jpg) no-repeat 0 0 ; width:778px; height:295px; display:block; clear:both;}
+/*--------body-------------*/
+
+div#body div.left{padding:31px 0 0 19px; float:left; width:372px;}
+div#body div.left p{ color:#7A8282; font:11px/14px Tahoma, Arial, Helvetica, sans-serif; width:361px; margin:14px 0 0 0;}
+div#body div.left p a{ text-decoration:underline; color:#7A8282;}
+
+div#body form.search{ width:370px ; height:210px; border:1px solid #BDBFBF; float:right; padding:0 0 9px 0; margin:0 0 14px 0; clear:right;}
+
+div#body div.left p a:hover{text-decoration:none;}
+div#body p.brd{ margin:3px 0 0 19px; border-bottom:1px solid #ABB5B6; line-height:0; font-size:0; width:741px;}
+
+.detailBox {
+	width:320px;
+	border:1px solid #bbb;
+	margin:50px;
+}
+.titleBox {
+	background-color:#fdfdfd;
+	padding:10px;
+}
+.titleBox label{
+	color:#444;
+	margin:0;
+	display:inline-block;
+}
+
+.TextBox {
+	padding:10px;
+	border-top:1px dotted #bbb;
+}
+.TextBox .form-group:first-child, .actionBox .form-group:first-child {
+	width:80%;
+}
+.TextBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+	width:18%;
+}
+.actionBox .form-group * {
+	width:100%;
+}
+.taskDescription {
+	margin-top:10px 0;
+}
+.TextList {
+	padding:0;
+	list-style:none;
+	max-height:200px;
+	overflow:auto;
+}
+.TextList li {
+	margin:0;
+	margin-top:10px;
+}
+.TextList li > div {
+	display:table-cell;
+}
+.commenterImage {
+	width:30px;
+	margin-right:5px;
+	height:100%;
+	float:left;
+}
+.commenterImage img {
+	width:100%;
+	border-radius:50%;
+}
+.Text p {
+	margin:0;
+}
+.sub-text {
+	color:#aaa;
+	font-family:verdana;
+	font-size:11px;
+}
+.actionBox {
+	border-top:1px dotted #bbb;
+	padding:10px;
+}
